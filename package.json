@@ -9,7 +9,9 @@
     "debuglinux": "node $NODE_DEBUG_OPTION ./bin/www 1 3",
     "server1": "node ./bin/www 1 3",
     "server2": "node ./bin/www 2 3",
-    "server3": "node ./bin/www 3 3"
+    "server3": "node ./bin/www 3 3",
+    "fast-query": "node ./bin/fast-query.js",
+    "concurrent-put": "node ./bin/concurrent-put.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -20,6 +22,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.1"
+    "nodemon": "^2.0.2",
+    "yarn": "^1.21.1"
   }
 }
